@@ -11,7 +11,9 @@ if(isset($_POST['enviar'])){
         mail($gmail,"asunto de prueba", $msg, $header );
 
         if($mail){
-            echo "<h4> Mail enviado Exitosamente</h4>"
+            echo "<h4> Mail enviado Exitosamente</h4>";
+        }else{
+            echo "<h4> No se pudo enviar exitosamente</h4>";
         }
     }
 
