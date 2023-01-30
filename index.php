@@ -12,7 +12,6 @@
     </header>
     <main>
         <form method="post">
-            cargar documetnos <br>
             <input type="text" placeholder="nombre" name="txtNombre"> <br>
             <input type="gmail" placeholder="correo" name="txtCorreo"> <br>
             <input type="text" placeholder="telefono" name="txtTelefono"> <br>

@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['enviar'])){
+if(isset($_POST['btnEnviar'])){
     if(!empty($_POST['txtNombre']) && !empty($_POST['txtCorreo']) && !empty($_POST['txtTelefono'])){
         $name=$_POST['txtNombre'];
         $gmail=$_POST['txtCorreo'];
