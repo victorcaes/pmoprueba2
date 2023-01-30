@@ -16,9 +16,8 @@
             <input type="text" placeholder="nombre" name="txtNombre"> <br>
             <input type="gmail" placeholder="correo" name="txtCorreo"> <br>
             <input type="text" placeholder="telefono" name="txtTelefono"> <br>
-            <input type="text" placeholder="consulta" name="txtConsulta"> <br>
             <input type="text" placeholder="DNI/RUC" name="txtDNI"> <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="escribanos su consulta"></textarea> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="escribanos su consulta" name="txtConsulta"></textarea> <br>
             <input type="submit">
         </form>
         <?php
