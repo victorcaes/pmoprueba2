@@ -4,7 +4,9 @@ if(isset($_POST['btnEnviar'])){
         $name=$_POST['txtNombre'];
         $gmail=$_POST['txtCorreo'];
         $telefono=$_POST['txtTelefono'];
-        $msg= $name + $gmail + $telefono;
+        $msg= $name;
+        $msg.=$gmail;
+        $msg.=$telefono;
         $header="From: noreply@example.com" . "\r\n";
         $header.="Reply-To: noreply@example.com" . "\r\n";
         $header.="X-Mailer: PHP/" . phpversion();
