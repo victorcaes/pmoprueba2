@@ -18,7 +18,7 @@
             <input type="text" placeholder="telefono" name="txtTelefono"> <br>
             <input type="text" placeholder="DNI/RUC" name="txtDNI"> <br>
             <textarea name="" id="" cols="30" rows="10" placeholder="escribanos su consulta" name="txtConsulta"></textarea> <br>
-            <input type="submit">
+            <input type="submit" name="btnEnviar">
         </form>
         <?php
             include("correo.php");
