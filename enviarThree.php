@@ -9,12 +9,7 @@
     <title>Cómo enviar Archivo Adjunto a un correo electronico con PHP</title>
   </head>
   <body>
-      <nav class="navbar navbar-light bg-light " style="color: #fff !important; background-color: #563d7c !important;">
-          <a class="navbar-brand" href="https://blogangular-c7858.web.app/"> 
-              Canal WebDeveloper 
-          </a>
-          <h5 class="form-inline">Urian Viera</h5>
-      </nav>
+    
 
 
 <?php
